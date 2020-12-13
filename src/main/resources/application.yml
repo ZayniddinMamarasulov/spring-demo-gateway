@@ -26,4 +26,5 @@ security:
       client-id: test
       client-secret: test
     resource:
-      token-info-uri: http://localhost:8083/oauth/check_token
+      token-info-uri: https://spring-auth.herokuapp.com/oauth/check_token
+#      token-info-uri: http://localhost:8083/oauth/check_token
